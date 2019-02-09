@@ -1,7 +1,9 @@
 // CSS Imports *include in entry file only
-import '../css/bootstrap.css';
-import '../css/fonts.css';
-import '../css/components.css';
+import '../css/bootstrap.less';
+import '../css/fonts.less';
+import '../css/components.less';
+
+import '../../node_modules/holderjs/holder.js';
 
 /* Boostrap 4 Full Bundles */
 import 'bootstrap/dist/js/bootstrap.bundle'; /* Includes popper.js */

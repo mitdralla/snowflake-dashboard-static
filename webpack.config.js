@@ -100,7 +100,7 @@ module.exports = (env, argv) => {
     module: {
       rules: [
         {
-          test: /\.(sa|sc|c)ss$/,
+          test: /\.(sa|sc|c|le)ss$/,
           use: [
             MiniCssExtractPlugin.loader,
             'css-loader?url=false', // translates CSS into CommonJS modules
