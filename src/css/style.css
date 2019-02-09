@@ -3,5 +3,22 @@ body {
 }
 
 .main {
+    max-width: 1600px;
+    margin: 0 auto;
     margin-top: 56px;
+}
+
+.sidebar {
+    float: left;
+    max-width: 315px;
+    width: 315px;
+    height: 100%;
+    background-color: #ccc;
+    padding: 30px 15px 30px 15px;
+}
+
+.body_content {
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
 }
