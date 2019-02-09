@@ -1,1 +1,9 @@
 /* components */
+
+@import "style.css";
+@import "header.css";
+@import "hero.css";
+@import "sidebar.css";
+@import "body.css";
+@import "footer.css";
+@import "aux_footer.css";
