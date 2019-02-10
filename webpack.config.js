@@ -93,6 +93,10 @@ module.exports = (env, argv) => {
         // 'jQuery': 'jquery/dist/jquery.slim.js',
         // 'Popper': 'popper.js/dist/umd/popper', /* required for tooltips */
         // 'Util': 'exports-loader?Util!bootstrap/js/dist/util'
+
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery'
       }),
       new WriteFilePlugin(),
       new CompressionPlugin()

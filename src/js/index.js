@@ -2,6 +2,8 @@
 import '../css/bootstrap.less';
 import '../css/fonts.less';
 import '../css/components.less';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel';
 
 import '../../node_modules/holderjs/holder.js';
 

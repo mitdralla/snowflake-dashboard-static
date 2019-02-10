@@ -3,5 +3,40 @@ body {
 }
 
 .main {
+    max-width: 1600px;
+    margin: 0 auto;
     margin-top: 56px;
+}
+
+.sidebar {
+    float: left;
+    max-width: 320px;
+    width: 100%;
+    min-height: 1500px;
+    height: 100%;
+    background-color: #f9f9f9;
+    padding: 30px 15px 30px 15px;
+    display: block;
+}
+
+.body_content {
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    background-color: #fff !important;
+}
+
+.dapp_category_header h2 {
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.dapp_category_header h4 {
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.dApp_row {
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
