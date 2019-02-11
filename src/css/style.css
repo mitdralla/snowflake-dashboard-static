@@ -18,11 +18,17 @@ body {
 .dapp_category_header h2 {
     margin-bottom: 0px;
     text-align: left;
+    font-size: 35px;
+    font-weight: 300;
 }
 
 .dapp_category_header h4 {
     margin-bottom: 0px;
     text-align: left;
+    font-weight: 200;
+    font-size: 14px;
+    padding-top: 4px;
+    color: #9c9c9c;
 }
 
 .dApp_row {
