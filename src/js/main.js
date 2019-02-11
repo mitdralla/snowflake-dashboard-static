@@ -23,7 +23,7 @@ $(document).ready(function(){
         autoplay:true,
         autoplayTimeout:3000,
         autoplayHoverPause:false,
-        width: 200,
+        autoWidth: true,
         navigation: false
     })
 });

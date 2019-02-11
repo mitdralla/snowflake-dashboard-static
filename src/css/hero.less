@@ -1,9 +1,40 @@
+.owl-stage{
+  min-width: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.owl-item {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate(0) scale(1.0, 1.0);
+}
+
+.item {
+  opacity: 0.4;
+  transition: .4s ease all;
+}
+
 .owl-carousel .item {
   background-color: #333;
   color: #fff;
   font-size: 14px;
   min-height: 150px;
-  width: 200px;
+  width: 355px;
+  height: 230px;
   text-align: center;
   vertical-align: middle;
+  border-radius: 10px;
+}
+
+.owl-dot {
+  color: #333;
+}
+
+.dapp_carousel {
+  padding-bottom: 0px;
+}
+
+.owl-nav {
+  display: none;
 }
