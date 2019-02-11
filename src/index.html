@@ -12,7 +12,7 @@
     <!-- CSS files output here on build -->
   </head>
 
-  <body>
+  <body class="">
   <!--
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">Navbar</a>
@@ -48,28 +48,38 @@
     </nav>
    -->
 
-    <nav class="header">
-        <div class="container">
-          <div class="row">
+    <nav class="navbar header fixed-top">
+          <div class="row nav_wrapper">
             <div class="col-sm-6 col-md-4 col-lg-4">
-              <h2>Snowflake</h2>
-              <span>powered by hydro</span>
+              <div class="branding">
+                <h2>Snowflake</h2>
+                <span>powered by hydro</span>
+              </div>
             </div>
 
             <div class="col-sm-6 col-md-4 col-lg-4">
-              <input type="text" placeholder="search the dApp store..." />
+              <div class="search">
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="search" aria-describedby="search" placeholder="search the dApp store..." />
+                  </div>
+                </form>
+              </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <i class="icon-bar"></i> <i class="icon-bar"></i>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <div class="aux">
+                <i class="icon-bar">X</i> <i class="icon-bar">X</i>
+              </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <h2>Welcome, Tim</h2>
-              <span>EIN: 392948</span>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <div class="account">
+                <h2>Welcome, Tim</h2>
+                <span>EIN: 392948</span>
+              </div>
             </div>
           </div>
-        </div>
     </nav>
 
     <main role="main" class="main">
