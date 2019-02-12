@@ -6,6 +6,11 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     margin-top: 56px;
+    background-color: #f9f9f9;
+}
+
+.hidden {
+    display: none;
 }
 
 .bodyContent {
@@ -13,6 +18,15 @@ body {
     text-align: center;
     display: grid;
     background-color: #fff !important;
+    min-height: 819px;
+    margin-top: -30px;
+    padding-top: 30px;
+}
+
+.dappCategorySeeMore {
+    float: right;
+    margin-right: 15px;
+    margin-top: -45px;
 }
 
 .dapp_category_header h2 {
@@ -32,7 +46,7 @@ body {
 }
 
 .dApp_row {
-    margin-bottom: 30px;
+    margin-bottom: 55px;
     margin-top: 30px;
 }
 
@@ -41,6 +55,23 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none !important;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
 }
 
 .dappNavigation {
@@ -60,19 +91,33 @@ button:focus {
             cursor: pointer;
         }
 
+        li:hover {
+            background-color: #959595;
+            color: #fff;
+            border-radius: 20px;
+            -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+        }
+
         li.active {
             background-color: #1d4cff;
             border-radius: 30px;
             padding: 5px 30px 5px 30px;
             color: #fff;
+            -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
         }
 
         li.active:hover {
             background-color: #1739bb;
+            -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
         }
     }
 }
-
 
 
 .dappModuleWrapper {
@@ -88,6 +133,9 @@ button:focus {
         background-size: cover;
         background-repeat: no-repeat;
         cursor: pointer;
+        -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+        -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+        box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     }
 
     .dappImageWrapper:hover {

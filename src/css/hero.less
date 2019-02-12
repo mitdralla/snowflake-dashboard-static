@@ -34,10 +34,28 @@
 .dapp_carousel {
   padding-bottom: 0px;
   padding-top: 50px;
+  padding-right: 0px;
 }
 
 .owl-nav {
   display: none;
+}
+
+.owl-stage-outer {
+  overflow: visible;
+}
+
+.owl-stage{
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.owl-item {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+.owl-item.active {
+  opacity: 1;
 }
 
 .dAppCarouselItem:hover {
@@ -51,4 +69,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
