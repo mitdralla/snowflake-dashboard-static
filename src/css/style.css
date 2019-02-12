@@ -19,6 +19,8 @@ body {
     display: grid;
     background-color: #fff !important;
     min-height: 819px;
+    margin-top: -30px;
+    padding-top: 30px;
 }
 
 .dapp_category_header h2 {
