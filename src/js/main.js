@@ -34,4 +34,10 @@ $(document).ready(function(){
         $(this).addClass("active");
         e.preventDefault();
     });
+
+    $('.dappSidebarCategoryNav li').on('click', function(e) {
+        $('.dappSidebarCategoryNav li').removeClass("active");
+        $(this).addClass("active");
+        e.preventDefault();
+    });
 });
