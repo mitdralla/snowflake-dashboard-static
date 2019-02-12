@@ -43,45 +43,56 @@ button:focus {
     outline: none !important;
 }
 
-.card {
+
+.dappModuleWrapper {
+
     border: 0px;
-}
 
-.card img {
-    border-radius: 5px;
-}
+    .dappImageWrapper {
+        border-radius: 5px;
+        width: 240px;
+        height: 180px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
 
-.card-body {
-    padding-left: 0px;
-}
+    .dappImageWrapper:hover {
+        opacity: 0.4;
+        transition: .4s ease all;
+    }
 
-.dappBody {
-    text-align: left;
-}
+    .dappBody {
+        text-align: left;
+        padding-left: 0px;
+    }
 
-.hydroAmountText {
-    color: #006cf8;
-}
+    .hydroAmountText {
+        color: #006cf8;
+    }
 
-.dappName {
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 3px;
-}
+    .dappName {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 3px;
+    }
 
-.dappCategory {
-    font-size: 12px;
-    font-weight: 200;
-}
+    .dappCategory {
+        font-size: 12px;
+        font-weight: 200;
+    }
 
-.dappRatings {
+    .dappRatings {
 
-}
+    }
 
-.dappButtonGroup {
-    margin-top: 15px;
-}
+    .dappButtonGroup {
+        margin-top: 15px;
+    }
 
-.dapp_purchase_type_info {
+    .dapp_purchase_type_info {
+
+    }
 
 }
