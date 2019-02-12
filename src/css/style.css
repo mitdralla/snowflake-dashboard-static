@@ -43,25 +43,36 @@ button:focus {
     outline: none !important;
 }
 
-.dappNavigation ul {
-    text-align: left;
-    list-style-type: none;
-    margin-left: -50px;
+.dappNavigation {
+    margin-bottom: 40px;
+    margin-top: 20px;
 
-    li {
+    ul {
+        text-align: left;
         list-style-type: none;
-        display: inline-block;
-        padding: 10px 20px 15px 20px;
-        color: #8c8c8c;
-    }
+        margin-left: -50px;
 
-    li.active {
-        background-color: #1d4cff;
-        border-radius: 30px;
-        padding: 5px 30px 5px 30px;
-        color: #fff;
+        li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 5px 30px 5px 30px;
+            color: #8c8c8c;
+            cursor: pointer;
+        }
+
+        li.active {
+            background-color: #1d4cff;
+            border-radius: 30px;
+            padding: 5px 30px 5px 30px;
+            color: #fff;
+        }
+
+        li.active:hover {
+            background-color: #1739bb;
+        }
     }
 }
+
 
 
 .dappModuleWrapper {
