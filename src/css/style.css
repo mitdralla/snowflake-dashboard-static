@@ -6,6 +6,7 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     margin-top: 56px;
+    background-color: #f9f9f9;
 }
 
 .hidden {
@@ -17,6 +18,7 @@ body {
     text-align: center;
     display: grid;
     background-color: #fff !important;
+    min-height: 819px;
 }
 
 .dapp_category_header h2 {
