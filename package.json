@@ -30,12 +30,14 @@
     "generate:images": "node tools/generate-images.js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.1",
     "bootstrap": "^4.1.3",
     "holderjs": "^2.9.6",
     "jquery": "^3.3.1",
     "npm": "^6.4.1",
     "owl.carousel": "^2.3.4",
-    "popper.js": "^1.14.4"
+    "popper.js": "^1.14.4",
+    "react-ratings-declarative": "^3.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

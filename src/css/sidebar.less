@@ -8,7 +8,36 @@
   padding: 30px 15px 30px 15px;
   display: block;
 
-  ul {
-    min-width: 200px;
+  h2 {
+    margin-bottom: 15px;
+    font-size: 14px;
   }
+
+  ul {
+    list-style-type: none;
+    margin-left: -28px;
+    padding-left: 0px;
+    width: 275px;
+    margin-bottom: 50px;
+
+    li {
+      list-style-type: none;
+      padding: 5px 0 5px 50px;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+      margin-bottom: 10px;
+    }
+
+    li.active {
+      background-color: #1d4cff;
+      color: #fff;
+    }
+
+    li:hover {
+      background-color: #1d4cff;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
 }

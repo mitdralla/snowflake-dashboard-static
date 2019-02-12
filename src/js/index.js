@@ -5,6 +5,8 @@ import '../css/components.less';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel';
 import '../../node_modules/holderjs/holder.js';
+import '../../node_modules/@fortawesome/fontawesome-free/js/all.js';
+
 import '../js/main.js';
 
 /* Boostrap 4 Full Bundles */
