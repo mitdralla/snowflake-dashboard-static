@@ -55,10 +55,33 @@ button:focus {
     padding-left: 0px;
 }
 
-.card-text {
+.dappBody {
     text-align: left;
 }
 
-.text-hydro-amount {
+.hydroAmountText {
     color: #006cf8;
+}
+
+.dappName {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.dappCategory {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.dappRatings {
+
+}
+
+.dappButtonGroup {
+    margin-top: 15px;
+}
+
+.dapp_purchase_type_info {
+
 }
