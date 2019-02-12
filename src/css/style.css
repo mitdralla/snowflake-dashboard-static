@@ -18,14 +18,70 @@ body {
 .dapp_category_header h2 {
     margin-bottom: 0px;
     text-align: left;
+    font-size: 35px;
+    font-weight: 300;
 }
 
 .dapp_category_header h4 {
     margin-bottom: 0px;
     text-align: left;
+    font-weight: 200;
+    font-size: 14px;
+    padding-top: 4px;
+    color: #9c9c9c;
 }
 
 .dApp_row {
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none !important;
+}
+
+.card {
+    border: 0px;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.card-body {
+    padding-left: 0px;
+}
+
+.dappBody {
+    text-align: left;
+}
+
+.hydroAmountText {
+    color: #006cf8;
+}
+
+.dappName {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.dappCategory {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.dappRatings {
+
+}
+
+.dappButtonGroup {
+    margin-top: 15px;
+}
+
+.dapp_purchase_type_info {
+
 }

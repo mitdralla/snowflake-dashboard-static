@@ -53,7 +53,7 @@
             <div class="col-sm-6 col-md-4 col-lg-4">
               <div class="branding">
                 <h2>Snowflake</h2>
-                <span>powered by hydro</span>
+                <p>powered by hydro</p>
               </div>
             </div>
 
@@ -61,7 +61,7 @@
               <div class="search">
                 <form>
                   <div class="form-group">
-                    <input type="text" class="form-control" id="search" aria-describedby="search" placeholder="search the dApp store..." />
+                    <input type="text" class="form-control" id="search" aria-describedby="search" placeholder="search the dApp store..." autocomplete="off" />
                   </div>
                 </form>
               </div>
@@ -131,16 +131,22 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-4 col-lg-4">
-              <h2>Categories</h2>
               <ul>
-                <li>All Categories</li>
-                <li>Entertainment</li>
-                <li>Fintech</li>
-                <li>Business</li>
-                <li>Gaming</li>
-                <li>Community</li>
-                <li>Tools</li>
-                <li>Other</li>
+                <li>dApp Store Wallet</li>
+                <li>Your Added dApps</li>
+                <li>Manage Your Identity (EIN)</li>
+                <li>Submit Your dApp</li>
+              </ul>
+              <h2 class="text-grey">Categories</h2>
+              <ul>
+                <li class="active"><i class="fas fa-folder"></i> All Categories</li>
+                <li><i class="fas fa-film"></i> Entertainment</li>
+                <li><i class="fas fa-credit-card"></i> Fintech</li>
+                <li><i class="fas fa-globe"></i> Business</li>
+                <li><i class="fas fa-gamepad"></i> Gaming</li>
+                <li><i class="fas fa-people-carry"></i> Community</li>
+                <li><i class="fas fa-calculator"></i> Tools</li>
+                <li><i class="fas fa-gears"></i> Other</li>
               </ul>
             </div>
           </div>
@@ -152,52 +158,63 @@
           <div class="row dapp_category_header">
             <div class="col-sm-12 col-md-8 col-lg-8">
               <h2 class="dapp_category_header">Featured</h2>
-              <h4>Lorum ipsum dolor sit amet</h4>
+              <h4>dApps Chosen Based on Demand</h4>
             </div>
           </div>
 
           <div class="row dApp_row">
-            <div class="col-sm-12 col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-sm-12 col-md-3">
+              <div class="card dapp_module mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Featured dApp One" alt="Card image cap">
+                <div class="card-body dappBody">
+                  <h4 class="dappName">Uber: Local Drivers</h4>
+                  <h5 class="dappCategory">Business</h5>
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <div class="btn-group dappButtonGroup">
+                      <button type="button" class="pill green btn btn-sm btn-outline-secondary">Open</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-sm-12 col-md-3">
+              <div class="card dapp_module mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Featured dApp One" alt="Card image cap">
+                <div class="card-body dappBody">
+                  <h4 class="dappName">Subway Surfers</h4>
+                  <h5 class="dappCategory">Gaming</h5>
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <div class="btn-group dappButtonGroup">
+                      <button type="button" class="pill blue btn btn-sm btn-outline-secondary">5,400</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="col-sm-12 card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-sm-12 col-md-3">
+              <div class="card dapp_module mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Featured dApp One" alt="Card image cap">
+                <div class="card-body dappBody">
+                  <h4 class="dappName">Firefox Global</h4>
+                  <h5 class="dappCategory">Tools</h5>
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <div class="btn-group dappButtonGroup">
+                      <button type="button" class="pill blue btn btn-sm btn-outline-secondary">2,550</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="card dapp_module mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Featured dApp One" alt="Card image cap">
+                <div class="card-body dappBody">
+                  <h4 class="dappName">Temple Run 2</h4>
+                  <h5 class="dappCategory">Gaming</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group dappButtonGroup">
+                      <button type="button" class="pill blue btn btn-sm btn-outline-secondary">3,400</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -207,52 +224,63 @@
             <div class="row dapp_category_header">
               <div class="col-md-12">
                 <h2 class="dapp_category_header">Popular</h2>
-                <h4>Lorum ipsum dolor sit amet</h4>
+                <h4>Highest Usage dApps</h4>
               </div>
             </div>
 
             <div class="row dApp_row">
-              <div class="col-sm-12 col-md-4">
-                <div class="card mb-4 box-shadow">
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="col-sm-12 col-md-3">
+                <div class="card dapp mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Popular dApp One" alt="Card image cap">
+                  <div class="card-body dappBody">
+                    <h4 class="dappName">Extreme City GT Car Stunts</h4>
+                    <h5 class="dappCategory">Gaming</h5>
                     <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="btn-group dappButtonGroup">
+                        <button type="button" class="pill blue btn btn-sm btn-outline-secondary">3,400</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-4">
-                <div class="card mb-4 box-shadow">
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="col-sm-12 col-md-3">
+                <div class="card dapp mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Popular dApp Two" alt="Card image cap">
+                  <div class="card-body dappBody">
+                    <h4 class="dappName">DEX</h4>
+                    <h5 class="dappCategory">Business</h5>
                     <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="btn-group dappButtonGroup">
+                        <button type="button" class="pill blue btn btn-sm btn-outline-secondary">400</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-4">
-                <div class="card mb-4 box-shadow">
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="col-sm-12 col-md-3">
+                <div class="card dapp mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Popular dapp Three" alt="Card image cap">
+                  <div class="card-body dappBody">
+                    <h4 class="dappName">Quickbooks Accounting</h4>
+                    <h5 class="dappCategory">Business</h5>
                     <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="btn-group dappButtonGroup">
+                        <button type="button" class="pill blue btn btn-sm btn-outline-secondary">5,600</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <div class="card dapp mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Popular dApp Four" alt="Card image cap">
+                  <div class="card-body dappBody">
+                    <h4 class="dappName">Bitcoin Wallet</h4>
+                    <h5 class="dappCategory">Tools</h5>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group dappButtonGroup">
+                        <button type="button" class="pill blue btn btn-sm btn-outline-secondary">1,800</button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -262,52 +290,63 @@
             <div class="row dapp_category_header">
               <div class="col-md-12">
                 <h2 class="dapp_category_header">Latest Releases</h2>
-                <h4>Lorum ipsum dolor sit amet</h4>
+                <h4>Recently Released dApps</h4>
               </div>
             </div>
 
             <div class="row dApp_row">
-              <div class="col-sm-12 col-md-4">
-                <div class="card mb-4 box-shadow">
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="col-sm-12 col-md-3">
+                <div class="card dapp mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Latest dApp One" alt="Card image cap">
+                  <div class="card-body dappBody">
+                    <h4 class="dappName">Uber: Local Drivers</h4>
+                    <h5 class="dappCategory">Business</h5>
                     <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="btn-group dappButtonGroup">
+                        <button type="button" class="pill blue btn btn-sm btn-outline-secondary">20,000</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-4">
-                <div class="card mb-4 box-shadow">
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="col-sm-12 col-md-3">
+                <div class="card dapp mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Latest dApp Two" alt="Card image cap">
+                  <div class="card-body dappBody">
+                    <h4 class="dappName">Uber: Local Drivers</h4>
+                    <h5 class="dappCategory">Business</h5>
                     <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="btn-group dappButtonGroup">
+                        <button type="button" class="pill blue btn btn-sm btn-outline-secondary">1,000</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-4">
-                <div class="card mb-4 box-shadow">
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="col-sm-12 col-md-3">
+                <div class="card dapp mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Latest dApp Three" alt="Card image cap">
+                  <div class="card-body dappBody">
+                    <h4 class="dappName">Uber: Local Drivers</h4>
+                    <h5 class="dappCategory">Business</h5>
                     <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="btn-group dappButtonGroup">
+                        <button type="button" class="pill blue btn btn-sm btn-outline-secondary">4,200</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <div class="card dapp mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Latest dApp Four" alt="Card image cap">
+                  <div class="card-body dappBody">
+                    <h4 class="dappName">Uber: Local Drivers</h4>
+                    <h5 class="dappCategory">Business</h5>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group dappButtonGroup">
+                        <button type="button" class="pill blue btn btn-sm btn-outline-secondary">15,000</button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -326,7 +365,6 @@
           </p>
         </div>
       </section>
-
     </main>
 
     <!-- JS files output here on build -->
