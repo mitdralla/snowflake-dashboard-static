@@ -27,5 +27,17 @@ $(document).ready(function(){
         autoplayHoverPause: false,
         autoWidth: true,
         navigation: false
-    })
+    });
+
+    $('.dappNavigation ul li').on('click', function(e) {
+        $('.dappNavigation ul li').removeClass("active");
+        $(this).addClass("active");
+        e.preventDefault();
+    });
+
+    $('.dappSidebarCategoryNav li').on('click', function(e) {
+        $('.dappSidebarCategoryNav li').removeClass("active");
+        $(this).addClass("active");
+        e.preventDefault();
+    });
 });
