@@ -112,14 +112,14 @@
               </ul>
               <h2 class="text-grey">Categories</h2>
               <ul class="dappSidebarCategoryNav">
-                <li class="active"><i class="fas fa-folder"></i> All Categories</li>
-                <li><i class="fas fa-film"></i> Entertainment</li>
-                <li><i class="fas fa-credit-card"></i> Fintech</li>
-                <li><i class="fas fa-globe"></i> Business</li>
-                <li><i class="fas fa-gamepad"></i> Gaming</li>
-                <li><i class="fas fa-people-carry"></i> Community</li>
-                <li><i class="fas fa-calculator"></i> Tools</li>
-                <li><i class="fas fa-gears"></i> Other</li>
+                <li class="active" data-category="all"><i class="fas fa-folder"></i> All Categories</li>
+                <li data-category="entertainment"><i class="fas fa-film"></i> Entertainment</li>
+                <li data-category="fintech"><i class="fas fa-credit-card"></i> Fintech</li>
+                <li data-category="business"><i class="fas fa-globe"></i> Business</li>
+                <li data-category="gaming"><i class="fas fa-gamepad"></i> Gaming</li>
+                <li data-category="community"><i class="fas fa-people-carry"></i> Community</li>
+                <li data-category="tools"><i class="fas fa-calculator"></i> Tools</li>
+                <li data-category="other"><i class="fas fa-gears"></i> Other</li>
               </ul>
             </div>
           </div>
@@ -131,23 +131,23 @@
           <div class="row dappNavigation">
             <div class="col-sm-12 col-md-12 col-lg-12">
               <ul>
-                <li class="active">Home</li>
-                <li>Featured</li>
-                <li>Most Popular</li>
-                <li>Latest Releases</li>
+                <li class="active" data-group="all">All</li>
+                <li data-group="featured">Featured</li>
+                <li data-group="popular">Most Popular</li>
+                <li data-group="latest">Latest Releases</li>
               </ul>
             </div>
           </div>
 
-          <div class="row dapp_category_header">
+          <div class="row dapp_category_header" data-group="featured">
             <div class="col-sm-12 col-md-8 col-lg-8">
-              <h2 class="dapp_category_header">Featured</h2>
+              <h2 class="">Featured</h2>
               <h4>dApps Chosen Based on Demand</h4>
             </div>
           </div>
 
-          <div class="row dApp_row">
-            <div class="col-sm-12 col-md-3">
+          <div class="row dApp_row" data-group="featured">
+            <div class="col-sm-12 col-md-3 dapp" data-category="business">
               <div class="card dappModuleWrapper mb-4 box-shadow">
                 <div class="dappImageWrapper" style="background-image: url('images/uber_logo.jpg');"></div>
                 <div class="card-body dappBody">
@@ -161,7 +161,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 dapp" data-category="gaming">
               <div class="card dappModuleWrapper mb-4 box-shadow">
                 <div class="dappImageWrapper" style="background-image: url('images/subway_surfers_logo.png');"></div>
                 <div class="card-body dappBody">
@@ -175,7 +175,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 dapp" data-category="tools">
               <div class="card dappModuleWrapper mb-4 box-shadow">
                 <div class="dappImageWrapper" style="background-image: url('images/firefox_logo.png');"></div>
                 <div class="card-body dappBody">
@@ -189,7 +189,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 dapp" data-category="gaming">
               <div class="card dappModuleWrapper mb-4 box-shadow">
                 <div class="dappImageWrapper" style="background-image: url('images/temple_run_logo.png');"></div>
                 <div class="card-body dappBody">
@@ -205,15 +205,15 @@
             </div>
           </div>
 
-            <div class="row dapp_category_header">
+            <div class="row dapp_category_header" data-group="popular">
               <div class="col-md-12">
-                <h2 class="dapp_category_header">Popular</h2>
+                <h2 class="">Popular</h2>
                 <h4>Highest Usage dApps</h4>
               </div>
             </div>
 
-            <div class="row dApp_row">
-              <div class="col-sm-12 col-md-3">
+            <div class="row dApp_row" data-group="popular">
+              <div class="col-sm-12 col-md-3 dapp" data-category="gaming">
                 <div class="card dappModuleWrapper mb-4 box-shadow">
                   <div class="dappImageWrapper" style="background-image: url('images/extreme_city_logo.jpg');"></div>
                   <div class="card-body dappBody">
@@ -227,7 +227,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 dapp" data-category="business">
                 <div class="card dappModuleWrapper mb-4 box-shadow">
                   <div class="dappImageWrapper" style="background-image: url('images/dex_logo.png');"></div>
                   <div class="card-body dappBody">
@@ -241,7 +241,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 dapp" data-category="business">
                 <div class="card dappModuleWrapper mb-4 box-shadow">
                   <div class="dappImageWrapper" style="background-image: url('images/quickbooks_logo.jpeg');"></div>
                   <div class="card-body dappBody">
@@ -255,7 +255,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 dapp" data-category="tools">
                 <div class="card dappModuleWrapper mb-4 box-shadow">
                   <div class="dappImageWrapper" style="background-image: url('images/bitcoin_wallet_logo.png');"></div>
                   <div class="card-body dappBody">
@@ -271,15 +271,15 @@
               </div>
             </div>
 
-            <div class="row dapp_category_header">
+            <div class="row dapp_category_header" data-group="latest">
               <div class="col-md-12">
-                <h2 class="dapp_category_header">Latest Releases</h2>
+                <h2 class="">Latest Releases</h2>
                 <h4>Recently Released dApps</h4>
               </div>
             </div>
 
-            <div class="row dApp_row">
-              <div class="col-sm-12 col-md-3">
+            <div class="row dApp_row" data-group="latest">
+              <div class="col-sm-12 col-md-3 dapp" data-category="business">
                 <div class="card dappModuleWrapper mb-4 box-shadow">
                   <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Latest dApp One" alt="Card image cap">
                   <div class="card-body dappBody">
@@ -293,7 +293,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 dapp" data-category="business">
                 <div class="card dappModuleWrapper mb-4 box-shadow">
                   <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Latest dApp Two" alt="Card image cap">
                   <div class="card-body dappBody">
@@ -307,7 +307,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 dapp">
                 <div class="card dappModuleWrapper mb-4 box-shadow">
                   <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Latest dApp Three" alt="Card image cap">
                   <div class="card-body dappBody">
@@ -321,7 +321,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 dapp" data-category="business">
                 <div class="card dappModuleWrapper mb-4 box-shadow">
                   <img class="card-img-top" data-src="holder.js/240x180?theme=thumb&bg=55595c&fg=eceeef&text=Latest dApp Four" alt="Card image cap">
                   <div class="card-body dappBody">

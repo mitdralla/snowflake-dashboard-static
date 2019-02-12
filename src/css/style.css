@@ -8,6 +8,10 @@ body {
     margin-top: 56px;
 }
 
+.hidden {
+    display: none;
+}
+
 .bodyContent {
     margin: 0 auto;
     text-align: center;
