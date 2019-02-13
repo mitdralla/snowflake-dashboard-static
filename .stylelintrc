@@ -117,7 +117,7 @@
     "comment-empty-line-before": ["always", {
       ignore: "after-comment"
     }],
-    "indentation": 2,
+    "indentation": [2, "tab"],
     "max-empty-lines": 1,
     "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true,
