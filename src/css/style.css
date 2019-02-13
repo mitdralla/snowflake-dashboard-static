@@ -128,10 +128,11 @@ label:focus,
 .dappModuleWrapper {
 
     border: 0px;
+    min-width: 245px;
 
     .dappImageWrapper {
         border-radius: 5px;
-        width: 240px;
+        width: 235px;
         height: 180px;
         background-color: #f7f7f7;
         background-position: center center;
@@ -183,9 +184,20 @@ label:focus,
         width: 150px;
         line-height: 15px;
         font-weight: 200;
-        padding-top: 11px;
+        padding-top: 15px;
         position: absolute;
-        left: 90px;
+        left: 100px;
+        font-size: 13px;
     }
 
+}
+
+.dapp {
+    margin-right: 37px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1280px;
+    }
 }
