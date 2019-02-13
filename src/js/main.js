@@ -82,4 +82,16 @@ $(document).ready(function(){
 
         e.preventDefault();
     });
+
+    /*
+    $('.dAppCarouselItem').on('mouseover', function(e) {
+        $(this).find('.dapp_hero_meta_wrapper').toggleClass('hidden');
+    });
+
+    $('.dAppCarouselItem').on('mouseout', function(e) {
+        $(this).find('.dapp_hero_meta_wrapper').addClass('hidden');
+    });
+    */
+
+
 });
