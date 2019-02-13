@@ -1,6 +1,6 @@
 {
   "name": "snowflake-dashboard-static",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "repository": {
     "type": "git",
@@ -21,6 +21,10 @@
     "build": "webpack --mode=production",
     "watch": "webpack --watch --mode=development",
     "start": "webpack-dev-server --mode=development --open",
+    "test": "run-s lint:*",
+    "lint": "run-s lint:*",
+    "lint:css": "stylelint ./src/css/*.css",
+    "lint:js": "eslint .",
     "generate:images": "node tools/generate-images.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
