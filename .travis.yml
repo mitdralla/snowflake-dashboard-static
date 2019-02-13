@@ -1,5 +1,24 @@
+branches:
+  only:
+    - master
 language: node_js
 node_js:
-- '10.1.0'
-install: npm install
-before_script: npm run test
+  - '10'
+cache:
+  directories:
+    - node_modules
+jobs:
+  include:
+    - stage: test
+      install:
+        - npm install
+      script:
+        - npm run lint
+        - npm run build
+    - stage: deploy
+      if: type = push
+      install:
+        - npm install
+      script:
+        - echo -e "machine github.com\n  login $GH_TOKEN" > ~/.netrc
+        - npm run deploy
