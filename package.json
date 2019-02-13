@@ -11,11 +11,11 @@
     "url": "https://github.com/mitdralla/snowflake-dashboard-static/issues"
   },
   "keywords": [
-    "webpack",
-    "template",
-    "webpage",
-    "starter",
-    "website"
+    "dapp",
+    "app store",
+    "hydro",
+    "snowflake",
+    "decentralized app store"
   ],
   "scripts": {
     "build": "webpack --mode=production",
