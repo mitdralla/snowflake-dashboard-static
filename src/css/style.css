@@ -1,16 +1,16 @@
 body {
-    background-color: #fff;
-    font-family: 'Nunito', sans-serif;
+  background-color: #fff;
+  font-family: 'Nunito', sans-serif;
 }
 
 .main {
-    margin: 0 auto;
-    margin-top: 56px;
-    background-color: #f9f9f9;
+  margin: 0 auto;
+  margin-top: 56px;
+  background-color: #f9f9f9;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .bodyContent {
@@ -168,8 +168,8 @@ label:focus,
     }
 
     .dappCategory {
-        font-size: 12px;
-        font-weight: 200;
+      font-size: 12px;
+      font-weight: 200;
     }
 
     .dappRatings {
@@ -177,7 +177,7 @@ label:focus,
     }
 
     .dappButtonGroup {
-        margin-top: 15px;
+      margin-top: 15px;
     }
 
     .dappButtonSupportText {
@@ -193,11 +193,11 @@ label:focus,
 }
 
 .dapp {
-    margin-right: 37px;
+  margin-right: 37px;
 }
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1280px;
+      max-width: 1280px;
     }
 }
