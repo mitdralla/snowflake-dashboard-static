@@ -266,6 +266,7 @@ h2 {
   background-color: #f4f4f4;
   text-align: left;
   position: relative;
+  border-radius: 5px;
 
   h3 {
     font-size: 22px;
@@ -285,4 +286,48 @@ h2 {
     right: 30px;
     top: 45px;
   }
+}
+
+.dappNavigation__filter {
+  margin-bottom: 40px;
+  margin-top: 20px;
+
+    ul {
+    text-align: center;
+    list-style-type: none;
+
+        li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 5px 30px;
+            color: #8c8c8c;
+            cursor: pointer;
+        }
+
+        li:hover {
+            background-color: #959595;
+            color: #fff;
+            border-radius: 20px;
+            -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+        }
+
+        li.active {
+            background-color: #1d4cff;
+            border-radius: 30px;
+            padding: 5px 30px;
+            color: #fff;
+            -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+        }
+
+        li.active:hover {
+            background-color: #1739bb;
+            -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+        }
+    }
 }

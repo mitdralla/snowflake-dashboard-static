@@ -56,6 +56,34 @@ $(document).ready(function(){
         e.preventDefault();
     });
 
+
+    $('.dappNavigation__filter ul li').on('click', function(e) {
+        $('.dappNavigation__filter ul li').removeClass("active");
+
+        // Set current filter to active
+        $(this).addClass("active");
+
+        // Get the current group filter
+        var group = $(this).attr("data-group");
+
+        // Show all dapps in this filter and hide everything else
+        if($(this).attr("data-group") == "all") {
+            $('.dApp_row').removeClass('hidden');
+            $('.dapp_category_header').removeClass('hidden');
+
+        } else {
+            if ($(this).attr("data-group") === group) {
+                console.log(group);
+                $('.dapp_category_header').addClass('hidden');
+                $('.dApp_row').addClass('hidden');
+                $('.dapp_category_header[data-group~='+group+']').removeClass('hidden');
+                $('.dApp_row[data-group~='+group+']').removeClass('hidden');
+            }
+        }
+
+        e.preventDefault();
+    });
+
     $('.dappSidebarCategoryNav li').on('click', function(e) {
         $('.dappSidebarCategoryNav li').removeClass("active");
 
