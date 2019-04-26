@@ -413,6 +413,101 @@
       </section>
     </main>
 
+    <footer>
+      <div class="footer">
+        <div class="py-4 container-fluid"><div class="row"><div class="text-left col-12 col-sm-3"><img src="data:image/png;base64,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" alt="Powered by Hydro"></div><div class="text-center col-12 col-sm-6"><ul class="footer__menu nav"><li class="nav-item"><a class="footer__link nav-link active" href="/privacy" aria-current="page">Privacy</a></li><li class="nav-item"><a class="footer__link nav-link" href="/terms">Terms</a></li><li class="nav-item"><a class="footer__link nav-link" href="/about">About</a></li><li class="nav-item"><a class="footer__link nav-link" href="/contact">Contact</a></li></ul></div><div class="text-right col-12 col-sm-3"><p class="mb-0">Maintained and hosted on <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9 1.4.3 2.6.4 3.8.4 8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1-8.4 1.9-15.9 2.7-22.6 2.7-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1 10.5 0 20-3.4 25.6-6 2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8 0 0 1.6-.5 5-.5 8.1 0 26.4 3.1 56.6 24.1 17.9-5.1 37-7.6 56.1-7.7 19 .1 38.2 2.6 56.1 7.7 30.2-21 48.5-24.1 56.6-24.1 3.4 0 5 .5 5 .5 12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5 1.2 0 2.6-.1 4-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z"></path></svg></p></div></div></div>
+      </div>
+    </footer>
+
+    <div style="height:50px;"></div>
+
+    <div style="text-align:center;">
+      <h2>---dApp Landing Page---</h2>
+
+      <hr />
+
+      <h3>Add dApp Button</h3>
+      <button class="btn btn-primary">Add dApp</button>
+
+      <hr />
+
+      <h3>Remove dApp Button</h3>
+      <button class="btn btn-secondary">Remove dApp</button>
+
+      <hr />
+
+      <h3>Screenshots</h3>
+      <ul class="appLandingPage__screenshotsCarousel">
+        <li><img src="/images/angry_birds_logo.jpg" /></li>
+        <li><img src="/images/angry_birds_logo.jpg" /></li>
+        <li><img src="/images/angry_birds_logo.jpg" /></li>
+      </ul>
+
+      <hr />
+
+      <h3>Frequently Asked Questions </h3>
+
+      <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+        <div class="container">
+      	  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+      		<div class="panel panel-default">
+      		  <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+      			<h3 class="panel-title">
+      			  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+      				Lorem ipsum dolor sit amet, consectetur adipiscing?
+      			  </a>
+      			</h3>
+      		  </div>
+      		  <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+      			<div class="panel-body px-3 mb-4">
+      			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      			</div>
+      		  </div>
+      		</div>
+
+      		<div class="panel panel-default">
+      		  <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+      			<h3 class="panel-title">
+      			  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+      				Sed do eiusmod tempor incididunt ut labore?
+      			  </a>
+      			</h3>
+      		  </div>
+      		  <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+      			<div class="panel-body px-3 mb-4">
+      			  <p>Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      			</div>
+      		  </div>
+      		</div>
+
+      		<div class="panel panel-default">
+      		  <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+      			<h3 class="panel-title">
+      			  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+      				 Excepteur sint occaecat cupidatat non proident?
+      			  </a>
+      			</h3>
+      		  </div>
+      		  <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+      			<div class="panel-body px-3 mb-4">
+      			  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+      			</div>
+      		  </div>
+      		</div>
+      	  </div>
+
+        </div>
+    </section>
+
+    <hr />
+
+    <h3>Frequently Asked Questions CTA</h3>
+    <div class="innerContentCTA__genericTemplate">
+      <h3>Need Additional Help?</h3>
+      <h4>Send us a message via projecthydro.org</h4>
+      <button class="btn btn-outlined">Get Assistance</button>
+    </div>
     <!-- JS files output here on build -->
   </body>
 </html>

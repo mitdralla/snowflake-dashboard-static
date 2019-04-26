@@ -189,8 +189,100 @@ label:focus,
   margin-right: 37px;
 }
 
+.text-center {
+    text-align: center !important;
+}
+
 @media (min-width: 1200px) {
     .container {
       max-width: 1280px;
     }
+}
+
+
+
+
+
+.appLandingPage__screenshotsCarousel {
+  li {
+    display: inline-block;
+
+    img {
+      max-width: 300px;
+      border-radius: 5px;
+    }
+  }
+}
+
+
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section {
+
+   .panel-default {
+
+     text-align: left;
+
+     > .panel-heading {
+       border: 0;
+       background: #f4f4f4;
+       padding: 0;
+     }
+     .panel-title {
+       a {
+          display: block;
+          font-style: italic;
+          font-size: 18px;
+          color: #333;
+          text-decoration: none;
+       }
+
+       a:before {
+         font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+         content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+         font-style: normal;
+         font-size: 20px;
+         color: #333;
+         float: left;
+         margin-top: 0px;
+         margin-right: 15px;
+       }
+
+       .panel-body {
+           font-size: 15px;
+       }
+     }
+   }
+}
+
+.innerContentCTA__genericTemplate {
+
+  padding: 30px;
+  background-color: #f4f4f4;
+  text-align: left;
+  position: relative;
+
+  h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: blue;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+  }
+
+  button {
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 45px;
+  }
 }
